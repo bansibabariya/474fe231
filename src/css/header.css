@@ -180,4 +180,8 @@ nav.right > .nav-bar::before {
     height: 666px;
   }
   footer {width: 376px;bottom: 14.5%;}
+  .archive-scroll {
+  height: 440px;
+  overflow-x: scroll;
+}
 }
