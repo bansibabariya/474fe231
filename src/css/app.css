@@ -1,0 +1,92 @@
+
+
+#app .container {
+  z-index: 100;
+  background: #f7f7f7;
+  border-radius: 3px;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, .3);
+}
+
+
+.archive-icon {
+  font-size: 18px;
+  color: lightgray;
+}
+
+.archive-card {
+  margin-top: 10px;
+  padding: 12px;
+}
+
+.all-card {
+  margin-top: 6px;
+  padding: 12px;
+}
+
+
+.date {
+  margin-top: 6px;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin: 10px 0;
+}
+
+.date::before,
+.date::after {
+  content: "";
+  flex: 1;
+  border-top: 1px dotted var(--bs-body-color);
+  margin: 0 3px;
+}
+
+.phone-red-icon {
+  color: #f44336;
+}
+
+.phone-green-icon {
+  color: green;
+}
+
+.phone-gray-icon {
+  color: gray;
+}
+
+.phone-no {
+  color: gray;
+}
+
+.time {
+  font-size: 12px;
+  color: gray;
+}
+
+.space {
+  padding: 12px;
+}
+
+.archive-scroll {
+  height: 440px;
+  overflow-x: scroll;
+}
+
+.call-border {
+  margin-top: 6px;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin: 10px 0;
+  padding-top: 8px;
+}
+
+.call-border::before,
+.call-border::after {
+  content: "";
+  flex: 1;
+  border-top: 1px dotted var(--bs-body-color);
+  margin: 0 3px;
+}
